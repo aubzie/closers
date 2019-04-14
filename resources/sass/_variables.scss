@@ -1,0 +1,34 @@
+
+// Body
+$body-bg: #fff;
+$body-color: #505d68;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+// Custom
+
+$primary: #ebae50;
+
+$theme-colors: (
+  "primary": $primary
+);
+
+// #ebae50 will have dark text (e.g.: for buttons), determined via Bootstrap's contrast function "color-yiq"
+// Increasing the threshold will allow lighter colors to have white text.
+$yiq-contrasted-threshold: 190; 

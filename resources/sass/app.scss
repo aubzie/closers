@@ -1,0 +1,136 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+#main-header {
+  padding: 2rem 0;
+  background-color: #FFF;
+  .nav-item {
+    margin-left: 4rem;
+    .nav-link {
+      color: $dark;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
+
+#home-content {
+  & > .row {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+
+    &:first-of-type {
+      color: #303030;
+    }
+
+    h2, .display-4 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+  }
+
+  #how-it-works {
+    h5 {
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+    p {
+      color: #a1aeb7;
+      line-height: 1.5rem;
+      font-size: 1rem;
+    }
+  }
+
+  #join-cta {
+    padding: 4rem 0;
+    border-radius: 5px;
+    background: url('/img/04.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 50% 50%;
+  
+    h2 {
+      margin: 0;
+    }
+  }
+}
+
+.closers-pill {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  border-radius: 25px;
+
+  &.d-block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.btn-primary:hover {
+    transition: .2s;
+    transform: translateY(-0.3rem);
+    box-shadow: 0 20px 30px 1px transparentize($primary, 0.7);
+  }
+
+  &.btn-dark:hover {
+    transition: .2s;
+    transform: translateY(-0.3rem);
+    box-shadow: 0 20px 30px 1px transparentize($dark, 0.7);
+  }
+
+  
+}
+
+footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background: #f8f9fa;
+
+  h6 {
+    font-weight: bold;
+    color: #303030;
+  }
+
+  ul li {
+    margin: 1.2rem 0;
+  }
+
+  a {
+    color: #464f5d;
+  }
+
+  .link-social {
+    padding-left: 40px;
+    line-height: 2rem;
+    display: inline-block;
+  }
+
+}
+
+#link {
+  &-facebook {
+    background: url('/img/Fb.svg') 0% 50% no-repeat;
+  }
+
+  &-linkedin {
+    background: url('/img/Linkedin.svg') 0% 50% no-repeat;
+  }
+
+  &-angelist {
+    background: url('/img/Angelist.svg') 0% 50% no-repeat;
+  }
+}
+
