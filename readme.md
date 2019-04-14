@@ -6,3 +6,8 @@
 No need to set up a database. This test is purely static.
 
 
+# Personal Notes
+
+- Focused more on desktop resolution as it hasn't been noted to make the home page responsive
+- Styling not 100% like the screenshot and video example, but made it close enough
+- Most of the time was learning Vue as I go. Enjoyed it
